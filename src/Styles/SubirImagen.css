@@ -1,0 +1,53 @@
+.img-input-check{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.box-form{
+    width: 70px;
+    margin: 0
+}
+
+.box-input__container {
+    background-color: #FAF3E7;
+    border: 2px solid #D8CEBD;
+    border-radius: 20px;
+    
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+
+.box-input__container::before {
+    align-items: center;
+    background-image: url("../img/burger-menu-icons/crear-publicacion-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    content: "";
+    display: flex;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+}
+
+.box-input{
+    cursor: pointer;
+    opacity: 0;
+    width: 70px;
+    height: 70px;
+    
+}
+
+.btn-Upload{
+    border: 4px;
+    background-color: #0F643B;
+    color: white;
+}
+.btn-Upload:hover {
+    color: black;
+    background-color: #D8CEBD;
+    border: 2px;
+}

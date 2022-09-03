@@ -1,0 +1,40 @@
+.desktop-componente-buscador__container{
+    width: 70%;
+}
+
+.desktop-componente-buscador__container{
+    width: 65%;
+}
+
+.desktop-search-filter__container{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.desktop-buscador-container{
+    display: flex;
+    position: relative;
+    width: 85%;
+}
+
+.desktop-buscador-container input {
+    border-radius: 24px;
+    height: 40px;
+    padding-left: 2.5em;
+    width: 100%;
+}
+
+.desktop-buscador-container a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: .7em;
+    padding: 5px 0;
+    width: auto;
+}
+
+.desktop-search-icon{
+    transform: scale(.7);
+  }

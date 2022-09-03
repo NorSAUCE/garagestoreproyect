@@ -1,0 +1,7 @@
+.category-result__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    width: auto;
+}

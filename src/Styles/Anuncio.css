@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h4 {
+    font: Kumbh Sans;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.88px;
+}
+h1 {
+    font: Kumbh Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.36px;
+}
+
+.box-anuncio {
+    border-radius: 25px;
+    background-color: #FAF3E7;
+    width: 100%;
+}
+.btn-donar {
+    font: Kumbh Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14.88px;
+    text-align: center;
+    color: #FFFF;
+    border: 0;
+    border-radius: 20px;
+    background-color: #0F643B;
+    width: 110px;
+    height: 30px;
+}
+
+.cross-anuncio {
+    position: absolute;
+    right: 0;
+}
+
+.anuncio-container{
+    margin-top: 1em;
+}

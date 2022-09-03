@@ -1,0 +1,29 @@
+
+@media (min-width: 1024px) {
+
+    .card-responsive{
+        display: flex;
+        flex-direction: column;
+        height: 370px;
+        gap: 0;
+        justify-content: none;
+        min-width: 240px;
+        width: 240px;
+    }
+
+    .card__img-container{
+        height: 240px;
+        width: 100%;
+    }
+
+    .card__img-container a{
+        height: 100%;
+        width: 100%;
+    }
+
+    .card__text-container{
+        height: 130px;
+        justify-content: center;
+        width: 90%;
+    }
+}

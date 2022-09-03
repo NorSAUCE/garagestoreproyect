@@ -1,0 +1,38 @@
+.desktop-cards-buttons{
+    display: none;
+}
+
+.desktop-button-left, .desktop-button-right{
+    background-color: #FEFBF7;
+    border: 2px solid #912E1C;
+    border-radius: 50%;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    top:55%;
+    transition: all .2s;
+    width: 40px;
+}
+
+.desktop-button-left:hover, .desktop-button-right:hover{
+    transform: scale(1.2);
+}
+
+.desktop-button-left{
+    left: 16px;
+}
+
+.desktop-button-right{
+    right: 16px;
+}
+
+.container-desktop__relative{
+    position: relative;
+}
+
+@media (min-width: 1024px){
+    .desktop-cards-buttons{
+        display: block;
+    }
+}
+

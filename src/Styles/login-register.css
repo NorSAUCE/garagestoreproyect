@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans&family=Leckerli+One&display=swap');
+
+:root{
+    --primaryFont: 'Inter', sans-serif;
+    --secondaryFont: 'Kumbh Sans', sans-serif;
+}
+
+.login__brand{
+    display: none;
+}
+
+
+.login__container{
+    background-color: #FEFBF7;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.login__logo-container{
+    background: #FAF3E7;
+    border-radius: 0 0 50% 50%;
+    box-sizing: border-box;
+    display: flex;
+    padding: 3em;
+    justify-content: center;
+    width: 100%;
+}
+
+.login__logo-container .return-button{
+    cursor: pointer;
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    width: 30px;
+}
+
+.login__logo-container img{
+    max-width: 240px;
+    width: 55%;
+}
+
+.container__title{
+    font-family: var(--primaryFont);
+    font-size: 2em;
+    margin: 2em auto;
+    text-align: center;
+    width: 80%;
+}
+
+.container__title span {
+    color: #912E1C;
+    font-family: 'Leckerli One', cursive;
+}
+
+.input__container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+    gap: 1.5em;
+    width: 80%;
+}
+
+.input-container__item{
+    background-color: transparent;
+    border: 2px solid #D8CEBD;
+    border-radius: 2em;
+    color: #333333;
+    font-size: 16px;
+    font-family: var(--primaryFont);
+    padding: 1em;
+}
+
+.input-container__item:focus{
+    background-color: white;
+    color: black;
+    outline: none;
+}
+
+.input-container__link{
+    color: #000000;
+    font-family: var(--primaryFont);
+    font-size: 0.8em;
+}
+
+.input-container__button{
+    background-color: #0F643B;
+    border: none;
+    border-radius: 32px;
+    color: white;
+    font-weight: bold;
+    font-family: var(--primaryFont);
+    height: 65px;
+}
+
+.login__separador{
+    margin: 3em auto;
+    max-width: 500px;
+    width: 80%;
+}
+
+.redes__container{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    max-width: 250px;
+    width: 50%;
+}
+
+.redes__item{
+    width: 40px ;
+}
+
+.redes__img-container{
+    display: flex;
+    width: 100%;
+}
+
+.redes__img-container img{
+    margin: 0 auto;
+}
+
+.login__crear-cuenta{
+    font-family: var(--primaryFont);
+    font-size: 0.8em;
+    margin: 2em;
+    text-align: center;
+}
+
+.crear-cuenta__link{
+    color: #AEB5C2;
+    margin: 1em 0;
+}
+
+.message-container{
+    background-color: #FAF3E7;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 15% 0;
+
+    display: none;
+}
+
+.message-container__box{
+    height: auto;
+    width: 100%;
+}
+
+.message-container__title, .message-container__sub-title{
+    font-family: var(--primaryFont);
+    font-size: 2.5em;
+    line-height: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+.message-container__img{
+    margin: 0 25%;
+    width: 50%;
+}
+
+.message-container__sub-title{
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.message-container__details{
+    font-family: var(--secondaryFont);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.message-container__button {
+    background-color: #0F643B;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    height: 50px;
+    margin:1em 25%;
+    width: 50%;
+}
+
+@media (min-width: 1024px){
+
+    
+    
+    
+    .login__container__general{
+        display: flex;
+        background-color: #FEFBF7;
+       
+    }
+
+  
+    .login__brand-semicircle{
+        background-color: #FAF3E7;
+        border-radius: 500% 500% 200% 200% ;
+        border: 2px solid #D8CEBD;
+        display: flex;
+        justify-content: center;
+        height: 600px;
+        width: 650px;
+        
+    }
+
+    .semicircle__logo{
+        width: 20%;
+        height: 20%;
+        object-fit: contain;
+    }
+  
+
+    .login__brand{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        height: 100%;
+        width: 50%;
+        
+    }
+
+    .login__brand-title{
+        font-family: var(--secondaryFont);
+        font-size: 1.8em;
+        height: 33.33%;
+        line-height: 1.5em;
+        padding-top: 1.8em;
+        text-align: center;
+        width: 55%;
+    }
+
+    
+    .login__brand-img{
+        height: 13.33%;
+        width: auto;
+        transform: scale(.9);
+    }
+
+    .login__functional{
+        width: 50%;
+        box-sizing: content-box;
+        transform: scale(.95);
+    }
+
+      
+    .login__logo-container{
+        display: none;
+    }
+
+
+    .redes__container{
+        margin: -1.5em auto;
+    }
+
+}
