@@ -95,10 +95,12 @@ const HeaderDesktop = () => {
                     <Link to='/sectionResults' onClick={setSectionName}><li className="list__items-desktop" id="recientes">Novedades</li></Link>
                     <Link to='/sectionResults' onClick={setSectionName}><li className="list__items-desktop" id="donaciones">Donaciones</li></Link>
                     </ul>
-
+                    {userConnected &&
                     <ul className="desktop-container__list">
                     <Link to='/publicar'><li className="list__items-desktop">Crear Publicación</li></Link>
+                    <li className="list__items"onClick={closeSession}>Cerrar sesión</li>
                     </ul>
+                     }
                  </div>
          
              
